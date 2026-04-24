@@ -2,15 +2,7 @@
 
 """
 Append POC: write an initial batch, then append a second batch using
-mode="append". Demonstrates that append does NOT deduplicate.
-
-Naming conventions:
-- ``s3dir_`` prefix: S3Path pointing to a directory
-- ``s3path_`` prefix: S3Path pointing to a file
-- ``df_`` prefix: Polars DataFrame
-- ``s3dir_example`` is the root of this test; deleting it cleans everything up
-
-All function calls use multi-line style, no single-line chained calls.
+``mode="append"``. Demonstrates that append does NOT deduplicate.
 """
 
 import polars as pl

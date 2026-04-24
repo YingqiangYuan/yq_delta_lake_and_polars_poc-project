@@ -1,16 +1,8 @@
 # -*- coding: utf-8 -*-
 
 """
-Overwrite POC: write a DataFrame to Delta table with mode="overwrite", then read
-it back. This is the simplest possible Delta Lake round-trip.
-
-Naming conventions:
-- ``s3dir_`` prefix: S3Path pointing to a directory
-- ``s3path_`` prefix: S3Path pointing to a file
-- ``df_`` prefix: Polars DataFrame
-- ``s3dir_example`` is the root of this test; deleting it cleans everything up
-
-All function calls use multi-line style, no single-line chained calls.
+Overwrite POC: write a DataFrame to a Delta table with ``mode="overwrite"``,
+then read it back. This is the simplest possible Delta Lake round-trip.
 """
 
 import polars as pl
