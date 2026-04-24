@@ -15,6 +15,11 @@ Uses minimal mock data stored in the ``data/`` directory.
 - 3 brand new transactions
 - 2 transactions with transaction_id overlapping batch_1 (to test merge dedup)
 
+## Run order
+
+These scripts form a pipeline and must be run sequentially: ``s01 → s02 → s03``.
+Each script depends on the Delta tables created by the previous one.
+
 ## Scripts
 
 ### s01_bronze_write.py
