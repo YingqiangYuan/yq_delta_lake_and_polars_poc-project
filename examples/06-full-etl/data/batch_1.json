@@ -1,0 +1,10 @@
+{"transaction_id": "TXN001", "card_id": "4111-1111-1111-1111", "amount": 25.50, "currency": "USD", "transaction_ts": "2025-01-15T10:30:00", "auth_status": "APPROVED"}
+{"transaction_id": "TXN002", "card_id": "5500-0000-0000-0004", "amount": 150.00, "currency": "USD", "transaction_ts": "2025-01-15T11:00:00", "auth_status": "APPROVED"}
+{"transaction_id": "TXN003", "card_id": "4111-1111-1111-1111", "amount": 500.00, "currency": "EUR", "transaction_ts": "2025-01-15T12:15:00", "auth_status": "APPROVED"}
+{"transaction_id": "TXN004", "card_id": "3400-0000-0000-009", "amount": 75.00, "currency": "USD", "transaction_ts": "2025-01-15T13:00:00", "auth_status": "DECLINED"}
+{"transaction_id": "TXN005", "card_id": "5500-0000-0000-0004", "amount": 1200.00, "currency": "USD", "transaction_ts": "2025-01-15T14:30:00", "auth_status": "APPROVED"}
+{"transaction_id": "TXN006", "card_id": "6011-0000-0000-0004", "amount": 89.99, "currency": "GBP", "transaction_ts": "2025-01-15T15:00:00", "auth_status": "APPROVED"}
+{"transaction_id": "TXN007", "card_id": "3400-0000-0000-009", "amount": 45.00, "currency": "USD", "transaction_ts": "2025-01-15T16:00:00", "auth_status": "APPROVED"}
+{"transaction_id": "TXN008", "card_id": "4111-1111-1111-1111", "amount": 320.00, "currency": "USD", "transaction_ts": "2025-01-15T17:00:00", "auth_status": "DECLINED"}
+{"transaction_id": "TXN009", "card_id": "6011-0000-0000-0004", "amount": 60.00, "currency": "EUR", "transaction_ts": "2025-01-15T18:00:00", "auth_status": "APPROVED"}
+{"transaction_id": "TXN003", "card_id": "4111-1111-1111-1111", "amount": 500.00, "currency": "EUR", "transaction_ts": "2025-01-15T12:15:00", "auth_status": "APPROVED"}
