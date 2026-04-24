@@ -28,3 +28,15 @@ class OneBotoSesMixin:
     @cached_property
     def s3_client(self: "One"):
         return self.bsm.s3_client
+
+    @cached_property
+    def polars_storage_options(self: "One") -> dict:
+        creds = self.bsm.boto_ses.get_credentials().get_frozen_credentials()
+        storage_options = {
+            "AWS_REGION": self.bsm.aws_region,
+            "AWS_ACCESS_KEY_ID": creds.access_key,
+            "AWS_SECRET_ACCESS_KEY": creds.secret_key,
+            "AWS_SESSION_TOKEN": creds.token or "",
+            "AWS_S3_ALLOW_UNSAFE_RENAME": "true",  # skip DynamoDB lock
+        }
+        return storage_options
