@@ -18,7 +18,11 @@ on a single topic, progressing from simple to complex.
 ### [00-minimal-poc](./00-minimal-poc/) — Golden reference
 
 The authoritative example that defines coding conventions for all other scripts.
+Start with [README.md](./00-minimal-poc/README.md) for a beginner-friendly
+primer on the three core technologies (S3, Polars, Delta Lake) used throughout
+this repository.
 
+- [README.md](./00-minimal-poc/README.md) — Background concepts: S3, Polars, and Delta Lake explained from first principles
 - [s01_minimal_poc.py](./00-minimal-poc/s01_minimal_poc.py) — Minimal Polars + Delta Lake + S3 round-trip with upsert
 
 ### [01-delta-read-write](./01-delta-read-write/) — Basic Delta Lake I/O
